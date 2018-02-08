@@ -1,0 +1,169 @@
+package com.zhizhi.education.controller;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import org.apache.log4j.Logger;
+
+import com.alibaba.fastjson.JSON;
+
+import com.jfinal.json.FastJson;
+import com.jfinal.kit.HttpKit;
+import com.jfinal.plugin.activerecord.Db;
+import com.jfinal.plugin.activerecord.Record;
+import com.zhizhi.common.annotation.controller.Controller;
+import com.zhizhi.common.base.BaseController;
+import com.zhizhi.common.tools.ToolString;
+import com.zhizhi.common.util.JWT;
+import com.zhizhi.common.util.ResponseData;
+import com.zhizhi.education.inputModel.CourseModel;
+import com.zhizhi.education.inputModel.QueryGradeModel;
+import com.zhizhi.education.service.CourseService;
+import com.zhizhi.sys.account.inputModel.LoginModel;
+
+@Controller(controllerKey="/course")
+public class CourseController extends BaseController{
+	
+	private static final Logger LOGGER = Logger.getLogger(CourseController.class);
+	private CourseService service = new CourseService();
+	
+	/**
+	 * 跳转到课程管理页面
+	 */
+	public void courseManagePage() {
+		try {
+			String sql = "select * from t_course where";
+		} catch (Exception ex) {
+			LOGGER.error(ex);
+		}
+	}
+	
+	/**
+	 * 添加课程
+	 */
+	public void doAddCourse() {
+		System.out.println("gfg-----------------------------");
+		try {
+			String jsonString = HttpKit.readData(getRequest());
+			CourseModel course = FastJson.getJson().parse(jsonString, CourseModel.class);
+			boolean flag = service.addCourse(course);
+			renderBoolean(flag);
+		} catch (Exception ex) {
+			LOGGER.error(ex);
+		}
+	}
+	
+	/**
+	 * 查询所有课程
+	 */
+	public void doQueryCourse() {
+		try {
+			List<Record> courseList = service.listCourse();
+			renderJson(courseList);
+		} catch (Exception ex) {
+			LOGGER.error(ex);
+		}
+	}
+	
+	/**
+	 *  按课程名查询课程名中带有courseName字段的课程
+	 */
+	public void doQueryCourseByName() {
+		try {
+			String jsonString = HttpKit.readData(getRequest());
+			String courseName = JSON.parseObject(jsonString).getString("courseName");
+			if (!ToolString.isNull(courseName)) {
+				// 执行查询
+				List<Record> courseList = service.listCourseByName(courseName);
+				renderJson(courseList);
+			}
+		} catch (Exception ex) {
+			LOGGER.error(ex);
+		}
+	}
+	
+	/**
+	 * 查询未停用的课程
+	 */
+	public void doQueryCourseNotDeactivated() {
+		try {
+			List<Record> courseList = service.listCourseNotDeactivated();
+			renderJson(courseList);
+		} catch (Exception ex) {
+			LOGGER.error(ex);
+		}
+	}
+	
+	public void doLoginTest() {
+		String phone = "123";
+		String password = "123";
+		if ("123".equals(phone) && "123".equals(password)) {  
+            ResponseData responseData = ResponseData.ok();  
+            LoginModel user = new LoginModel();
+            user.setPhone(phone);
+            user.setPassword(password);
+            String token = JWT.sign(user, 30L * 24L * 3600L * 1000L);  
+            if (token != null) {  
+                responseData.putDataValue("token", token);  
+            }  
+            renderJson(responseData);
+        }  
+	}
+	/**
+	 * 查询已停用的课程
+	 */
+	public void doQueryCourseDeactivated() {
+		try {
+			List<Record> courseList = service.listCourseDeactivated();
+			renderJson(courseList);
+		} catch (Exception ex) {
+			LOGGER.error(ex);
+		}
+	}
+	
+	/**
+	 * 
+	 */
+	public void getUserOperator() {
+		try {
+			Map<Integer , String> operatorMap = new HashMap<>();
+			String sql1 = "select * from account where id=1";
+			Record user = Db.findFirst(sql1);
+			String roleids = user.getStr("roleids");
+			String roles = roleids.replace(",", "");
+			String getAuthSql = "select operatorids from pt_role where id=?";
+			Record record2 = Db.findFirst(getAuthSql, roles);
+			operatorMap.put(user.getInt("id"), record2.getStr("operatorids"));
+			renderJson(operatorMap);
+			
+		} catch (Exception ex) {
+			LOGGER.error(ex);
+		}
+	}
+	
+	/**
+	 * 启用/停用课程
+	 */
+	public void updateStatus() {
+		try {
+			String id = getPara("id");
+			boolean flag = service.updateStatus(id);
+			renderBoolean(flag);
+		} catch (Exception ex) {
+			LOGGER.error(ex);
+		}
+	}
+	
+	/**
+	 * 向前段返回一个boolean类型的json参数   added by taotao 
+	 */
+	public void renderBoolean(boolean flag) {
+		if (flag) {
+			renderJson("result","true");
+		}
+		else {
+			renderJson("result","false");
+		}
+	}
+}

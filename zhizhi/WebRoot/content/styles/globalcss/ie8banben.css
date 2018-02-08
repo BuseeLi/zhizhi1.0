@@ -1,0 +1,122 @@
+			.u-banbenbrowser{
+				z-index: 999;
+				background-color: #666666;
+				/*filter: alpha(opacity=30);*/
+			}
+			.u-banbenmess{
+				z-index:1000;
+				height:250px;
+				width: 550px;
+				background-color: #eee;
+				position: absolute;
+				top:50%;
+				left: 0;
+				right: 0;
+				margin:-100px auto 0 auto;
+			}
+			#u-banbentitle{
+			  font-size: 18px;
+			  font-family: "PingFangSC";
+			  color: rgb(102, 102, 102);
+			  line-height: 1.2;
+			  position: absolute;
+			  left: 105.05px;
+			  top: 47.647px;
+			}
+			#u-firefox{
+				border: none;
+				position: absolute;
+				left:100px;
+				top: 90px;
+			}
+			#u-chrome{
+				border: none;
+				position: absolute;
+				left:170px;
+				top: 90px;
+			}
+			#u-ie{
+				border: none;
+				position: absolute;
+				left:240px;
+				top: 90px;
+			}
+			#u-opear{
+				border: none;
+				position: absolute;
+				left:310px;
+				top: 90px;
+			}
+			#u-360{
+				border: none;
+				position: absolute;
+				left:380px;
+				top: 90px;
+			}
+			#u-firefoxtext{
+			  font-size: 14px;
+			  font-family: "PingFangSC";
+			  color: rgb(102, 102, 102);
+			  line-height: 1.2;
+			  position: absolute;
+			  left: 110px;
+			  top: 159.233px;
+			}
+			#u-chrometext{
+			  font-size: 14px;
+			  font-family: "PingFangSC";
+			  color: rgb(102, 102, 102);
+			  line-height: 1.2;
+			  position: absolute;
+			  left: 175px;
+			  top: 159.233px;
+			}
+			#u-ietext{
+			  font-size: 14px;
+			  font-family: "PingFangSC";
+			  color: rgb(102, 102, 102);
+			  line-height: 1.2;
+			  position: absolute;
+			  left: 250px;
+			  top: 159.233px;
+			}
+			#u-operatext{
+			  font-size: 14px;
+			  font-family: "PingFangSC";
+			  color: rgb(102, 102, 102);
+			  line-height: 1.2;
+			  position: absolute;
+			  left: 315px;
+			  top: 159.233px;
+			}
+			#u-360text{
+			  font-family: "PingFangSC";
+			  color: rgb(102, 102, 102);
+			  line-height: 1.2;
+			  position: absolute;
+			  left: 397px;
+			  top: 159.233px;
+			}
+			#u-download{
+			  font-size: 14px;
+			  font-family: "PingFangSC";
+			  color: rgb(102, 102, 102);
+			  line-height: 1.2;
+			  position: absolute;
+			  left: 189.199px;
+			  top: 193.437px;
+			}
+			#u-tuijian{
+				color: #D43D2F;
+				font-size: 10px;
+				position: absolute;
+				left: 220px;
+				top:85px;
+			}
+			#u-tuijian2{
+				color: #D43D2F;
+				font-size: 10px;
+				position: absolute;
+				left: 435px;
+				top:85px;
+			}

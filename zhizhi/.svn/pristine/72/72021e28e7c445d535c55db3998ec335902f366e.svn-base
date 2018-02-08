@@ -1,0 +1,112 @@
+.g-main{position: absolute;left: 165px;top: 75px;height: 900px;width: 1068px;background-color:#fff;}
+/*mark*/
+.mark{width: 100%;height: 100%;background:  rgba(0,0,0,.5);position: fixed;z-index: 1000;display: none;}
+/*main界面的nav设置*/
+#m-stumgul{background-color:#fff!important;}
+.layui-nav .layui-nav-item{line-height: 50px;}
+.u-ms-nav{background-color: #fff;border-bottom: 1px solid #e5e5e5;}
+.u-ms-nav li{height: 50px;}
+.u-ms-nav a{color: #666!important;}
+/*按钮的设置*/
+.u-stumg-globtnsty{width: 94px;height: 38px;margin-top: 15px;margin-left: 15px;float: left;}
+.u-stumg-scbtn:hover {color: #f88a8a;border: 1px solid #f88a8a;}
+.u-stumg-iptDiv{margin-left: -2px;width: 150px;}
+#u-stumg-sehbtn{margin-left: -2px;width: 50px;background-color: #fff;border: 1px solid #e6e6e6;color: #999;}
+#u-stumg-addcus{background-color: #40cb85;}
+/*教师管理表格*/
+.u-stumg-addcoursetabDiv{width:1026px; margin-left: 15px;padding-top: 50px;}
+.u-stumg-cosmg-dmbtn{color: #4AA1EC;cursor: pointer;}
+.u-stumg-cosmg-glbtn{color: #F77878;cursor: pointer;}
+/*添加教师模态框*/
+.m-addteachDiv{display:none; top:55%;left: 0;right: 0;margin: -250px auto 0 auto; height: 290px;width: 500px;background-color: #fff;border-radius: 5px;z-index: 1111;position: fixed;}
+.g-stumg-addstutitle{height: 40px;width: 100%;border-bottom: 1px solid #F2F2F2;}
+.g-stumg-addstutitle span{color: #000!important; font-size: 16px!important;line-height: 40px;margin-left: 15px;}
+#u-addteachtitle{float: right;margin-right: 10px;margin-top:10px;}	
+.m-addteachDiv span{color: #676767; font-size: 14px;position: absolute;display: inline-block;}
+.u-addteach-ipt{border: 1px solid #E9E9E9;height: 40px;position: absolute; font-size: 14px;}
+#u-addteach-name{position: absolute;display: inline-block; left: 50px;top: 60px;}
+#u-addteach-nameipt{width: 150px;left: 85px;top: 50px;}
+#u-addteach-tel{ left: 250px;top: 60px;}
+#u-addteach-telipt{width: 150px;left: 290px;top: 50px;}
+#u-addteach-sex{left:50px;top: 120px;}
+#u-addteach-sexipt{width: 60px;left:85px;top: 110px;}
+#u-addteach-salary{left:222px;top: 120px;}
+#u-addteach-salaryipt{width: 92px; left: 290px;top: 110px;}
+#u-addteach-user{left:35px;top: 180px;}
+#u-addteach-useript{width:100px; left: 85px;top: 170px;}
+.u-qxclosebtn{position: absolute;left: 240px;top: 225px; width: 96px;height: 40px;border: 1px solid #D3D3D3;border-radius: 5px;color:#676767;background-color: #fff;font-size: 14px;}
+.u-confirmbtn{position: absolute;left: 350px;top: 225px; width: 96px;height: 40px;border: 1px solid #40CB85;border-radius: 5px;color:#fff;background-color: #40CB85;font-size: 14px;}
+/*学生管理界面*/
+.m-stumgDiv{display: none;}
+.u-stumg-mgbtn{color: #4AA1EC;cursor: pointer;font-size: 14px;}
+/*学生管理表格*/
+.g-stumg-stutabDiv{width:1026px; margin-left: 15px;padding-top: 50px;}
+/*管理教师模块*/
+#u-mgteachtitle{float: right;margin-right: 10px;margin-top:10px;}	
+#u-mgteach-nameipt{width: 150px;left: 85px;top: 50px;}
+#u-mgteach-telipt{width: 150px;left: 290px;top: 50px;}
+#u-mgteach-sexipt{width: 60px;left:85px;top: 110px;}
+#u-mgteach-salaryipt{width: 92px; left: 290px;top: 110px;}
+#u-mgteach-useript{width:100px; left:85px;top: 170px;}
+/*教师删除模态框*/
+#u-teachscclosebtn{float: right;margin-top: 10px;margin-right: 10px;}
+#m-scteachDiv span{font-size: 18px;position: absolute;}
+#u-scteacherspan1{left: 48px;top: 75px;} 
+#u-scteacherspan2{left: 150px;top: 100px;} 
+#u-scteach-qxclosebtn{position: absolute;left: 140px;top: 180px; width: 96px;height: 40px;border: 1px solid #D3D3D3;border-radius: 5px;color:#676767;background-color: #fff;font-size: 14px;}
+#u-scteach-confirmbtn{position: absolute;left: 255px;top: 180px; width: 96px;height: 40px;border: 1px solid #40CB85;border-radius: 5px;color:#fff;background-color: #40CB85;font-size: 14px;}
+/*学生基本信息框*/
+.m-stumsgDiv{display: none; position: absolute;left: 165px;top: 75px;height: 900px;width: 1068px;}
+.u-stumsgtopDiv{width: 100%;height: 165px;background-color: #fff;}
+.u-stutop-title{width100%;height: 60px;border-bottom: 1px solid #E2E2E2;}
+.u-stumsg-backbtn{height: 31px;width: 71px;border:1px solid #c9c9c9;border-radius: 5px;background-color: #fff;margin-top: 15px;margin-left: 15px;}
+.u-stumsg-toptitle{font-size: 16px;margin-left: 15px;}
+.u-stutop-main{width: 100%;height: 100px;}
+.u-stutop-main span{position: absolute; font-size: 14px;color: #666;}
+.u-stumg-stunametitle{left: 15px;top: 80px;}
+.u-stumg-stunamespan{left:80px;top: 80px;}
+.u-stumg-stusextitle{left: 200px;top: 80px;}
+.u-stumg-stusexspan{left: 240px;top: 80px;}
+.u-stumg-stuschooltitle{left: 350px;top: 80px;}
+.u-stumg-stuschoolspan{left: 390px;top: 80px;}
+.u-stumg-stugradetitle{left: 650px;top: 80px;}
+.u-stumg-stugradespan{left: 690px;top: 80px;}
+.u-stumg-stuteltitle{left: 15px;top: 110px;}	
+.u-stumg-stutelspan{left: 80px;top: 110px;}
+.u-stumg-stujoindatetitle{left: 200px;top: 110px;}
+.u-stumg-stujoindatespan{left: 268px;top: 110px;}
+.u-stumg-stuadrstitle{left: 350px;top: 110px;}
+.u-stumg-stuadrsspan{left: 390px;top: 110px; }
+.u-stumg-xiugaibtn{position: absolute; left: 970px;top: 90px; height: 31px;width: 71px;border:1px solid #c9c9c9;border-radius: 5px;background-color: #fff;}
+.u-stumsgbtmDiv{width: 100%;height: 512px;margin-top: 15px;background-color: #fff;}
+.u-stumsg-sgs{float: right;margin-top: 20px;margin-right: 20px;cursor: pointer;}
+    /*已报课程*/
+.m-stumg-yibaocourseDiv{height: 300px;width: 980px;margin-left: 15px;margin-top: 20px;}
+	/*历史课程*/
+.u-historycourseDiv{display: none; height: 300px;width: 980px;margin-left: 15px;margin-top: 20px;}
+/*学生信息修改模态框*/
+.g-stumsg-updateDiv{display:none; top:55%;left: 0;right: 0;margin: -250px auto 0 auto; height: 385px;width:473px;background-color: #fff;border-radius: 5px;z-index: 1111;position: fixed;}
+.u-stumsg-updatetitle{height: 40px;width:100%;border-bottom: 1px solid #e2e2e2;}
+.u-stumsg-updatetitle span{font-size: 16px;display: inline-block;margin-left: 15px;margin-top: 9px;}
+#u-stumsg-closebtn{float: right;margin-top: 10px;margin-right: 10px;}
+.m-stumsg-msgDiv span{font-size: 14px;display: inline-block;position: absolute;}
+.m-stumsg-msgDiv input{font-size: 14px;position: absolute;border: 1px solid #e6e6e6;height: 30px;}
+.u-stumsg-nametitle:before{content: "*";color: #F77878;}
+.u-stumsg-nametitle{left: 15px;top:60px;}
+.u-stumsg-nameipt{left: 53px;top: 54px;width: 150px;}
+.u-stumsg-sextitle{left: 270px;top:60px ;}
+.u-stumsg-sexipt{left: 303px;top: 54px;width: 84px;}
+.u-stumsg-teltitle:before{content: "*";color: #F77878;}
+.u-stumsg-teltitle{left: 15px;top: 105px;}
+.u-stumsg-telipt{left: 53px;top:99px;width: 150px;}
+.u-stumsg-birthtitle{left: 240px;top: 105px;}
+.u-stumsg-birthipt{left: 303px;top: 99px;width: 150px;}
+.u-stumsg-schooltitle{left: 21px;top:150px ;}
+.u-stumsg-schoolipt{left: 53px;top:146px ;width: 399px;}
+.u-stumsg-gradetitle{left: 21px;top:195px;}
+.u-stumsg-gradeipt{left: 53px;top:189px ;width: 399px;}
+.u-stumsg-adrstitle{left: 21px;top:240px;}
+.u-stumsg-adrsipt{left: 53px; position: absolute; top: 232px;font-size: 14px;border: 1px solid #e5e5e5;width: 399px;height: 70px;}
+.u-stumsg-updatebtn{position: absolute;width:96px;height: 41px;border-radius: 5px;font-size: 14px;}
+.u-stumsg-upqxbtn{border: 1px solid #C9C9C9;color: #666;background-color: #fff;left: 130px;top: 320px;}
+.u-stumsg-upokbtn{border: 1px solid #40CB85;color: #fff;background-color:#40CB85;left: 250px;top: 320px;}

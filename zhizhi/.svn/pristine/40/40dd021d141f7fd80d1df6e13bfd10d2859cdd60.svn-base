@@ -1,0 +1,60 @@
+/*快捷功能模块*/			
+.g-kuaijie{left: 165px;top: 75px; height: 147px;width: 599px;background-color: #fff;position: absolute;}
+.g-kuaijie *{font-size: 14px;}
+.u-kj-title{margin-left: 15px;display: inline-block; margin-top: 10px;font-size: 16px!important;}
+.u-kj-mg{font-size: 14px; float: right;display: inline-block;margin-right: 10px;margin-top: 10px;color: #4AA1EC;cursor: pointer;}
+.u-kj-btndiv{height: 100px;width: 100%;border-top: 1px solid #e5e5e5;margin-top: 15px;}
+.u-kj-btn{cursor: pointer; height:70px;width: 129px;background-color: #f8f8f8;margin-top: 15px;float: left;margin-left: 15px;}
+.u-kj-btn:hover {background-color: #f3f3f3;}
+.u-kj-btn:visited{background-color: #f3f3f3;}
+.u-kj-btn:active{background-color: #f3f3f3;}
+.u-kj-btndiv img{height: 29px;width: 30px;margin-top: 18px;margin-left: 15px;float: left;}
+.u-kj-btn span{display: inline-block;margin-top: 23px;color: #333;margin-left: 5px;}
+/*运营数据*/			
+.g-yunyingdata{left: 165px;top: 237px; height: 147px;width: 599px;background-color: #fff;position: absolute;}
+.g-yunyingdata *{font-size: 14px;}
+.u-yy-futitle{margin-left: 10px;color: #999;font-size: 14px!important;}
+.u-yy-btndiv{height: 100px;width: 100%;border-top: 1px solid #e5e5e5;margin-top: 15px;}
+.u-yy-data{cursor: pointer; height:70px;width: 129px;background-color: #f8f8f8;margin-top: 15px;float: left;margin-left: 15px;}
+.u-yy-data:hover {background-color: #f3f3f3;}
+.u-yy-data:visited{background-color: #f3f3f3;}
+.u-yy-data:active{background-color: #f3f3f3;}
+.u-yy-data p:nth-child(1){color: #999;margin-top: 7px;margin-left: 15px;}
+.u-yy-data p:nth-child(2){font-size: 16px; color: #4AA1EC;margin-top:7px;margin-left: 15px;}
+/*销售数据*/			
+.g-saledata{left: 165px;top: 399px; height: 262px;width: 599px;background-color: #fff;position: absolute;}
+.g-saledata *{font-size: 14px;}
+.u-saledata-echart{height:200px;width: 100%;border-top: 1px solid #e5e5e5;margin-top: 15px;}
+/*网盘*/
+.g-wangpan{left: 779px;top: 75px; height: 147px;width: 454px;background-color: #fff;position: absolute;}
+.g-wangpan *{font-size: 14px;}
+.u-wp-detail{ height: 100px;width: 100%;border-top: 1px solid #e5e5e5;margin-top: 15px;}
+#u-wp-canvas{display: inline-block;height: 65px;width: 65px;margin-left: 15px;margin-top: 15px;}
+#u-wp-pec{position: absolute;left: 35px;top: 82px;}
+#u-wp-pec *{color: #999;}
+.u-wp-dataspan{position: absolute; left: 95px; top: 65px; height: 50px;width: 230px;}
+.u-wp-dataspan *{color: #666;}
+.u-wp-alruse{display: inline-block; margin-left: 18px;margin-top: 10px;}
+.u-wp-weiuse{margin-left: 30px;}
+#u-shiyong{display: inline-block; height: 14px;width: 14px;background-color: #4AA1EC;position: absolute;top: 98px;left: 97px;}
+#u-weishiyong{display: inline-block; height: 14px;width: 14px;background-color: #999;position: absolute;top: 98px;left: 215px;}
+#u-wp-kuorong{display: inline-block;height: 70px;width: 100px;text-align: center;line-height: 70px;cursor:pointer;font-size: 14px;color: 666; background-color: #f8f8f8;position: absolute;left:330px;top: 60px;}
+/*销售排名*/
+.g-salerank{left: 779px;top:237px; height: 147px;width: 454px;background-color: #fff;position: absolute;}
+.u-sr-week{cursor: pointer; display: inline-block;text-align: center;line-height: 20px;color: #4AA1EC; height:20px;width:20px;border: 1px solid #4AA1EC; }
+.u-sr-month{cursor: pointer; display: inline-block;text-align: center;line-height: 20px;color: #999; height:20px;width:20px;border: 1px solid #999;}
+.u-sr-list{ height: 100px;width: 100%;border-top: 1px solid #e5e5e5;margin-top: 15px;}
+.u-sr-listmod{height:100%;width: 147px;display: inline-block;}
+.u-sr-listmod img{margin-left: 15px;margin-top: 15px;}
+.u-sr-listmod-data{display: inline-block;height: 40px;margin-top: 35px; width:75px;}
+.u-sr-listmod-data span:nth-child(1){margin-left: 12px;}
+/*销售漏斗*/
+.g-saleloudou{left: 779px;top:399px; height: 262px;width: 454px;background-color: #fff;position: absolute;}
+.u-sl-div{ height: 215px;width: 100%;border-top: 1px solid #e5e5e5;margin-top: 15px;}
+.u-sl-dataDiv{height: 215px;width: 225px;float: left;}
+.u-sl-div *{font-size: 14px;color: #666;}
+.u-sl-div p:nth-child(1){margin-left: 65px; margin-top: 15px;}
+.u-sl-img1{height: 26px;width: 160px; margin-top: 10px;margin-left: 15px;}
+.u-sl-img2{height: 26px;width: 116px; margin-top: 10px;margin-left:37px;}
+.u-sl-img3{height: 26px;width: 72px; margin-top: 10px;margin-left:59px;}
+.u-sl-img4{height:40px;width: 39px; margin-top: 10px;margin-left:75px;}

@@ -1,0 +1,159 @@
+.g-main{position: absolute;left: 165px;top: 75px;height: 900px;width: 1068px;background-color:#fff;}
+			/*mark*/
+.mark{width: 100%;height: 100%;background:  rgba(0,0,0,.5);position: fixed;z-index: 1000;display: none;}
+/*main界面的nav设置*/
+#m-stumgul{background-color:#fff!important;}
+.layui-nav .layui-nav-item{line-height: 50px;}
+.u-ms-nav{background-color: #fff;border-bottom: 1px solid #e5e5e5;}
+.u-ms-nav li{height: 50px;}
+.u-ms-nav a{color: #666!important;}
+/*按钮的设置*/
+.u-stumg-globtnsty{width: 94px;height: 38px;margin-top: 15px;margin-left: 15px;float: left;}
+.u-stumg-scbtn:hover {color: #f88a8a;border: 1px solid #f88a8a;}
+.u-stumg-iptDiv{margin-left: -2px;width: 150px;}
+#u-stumg-sehbtn{margin-left: -2px;width: 50px;background-color: #fff;border: 1px solid #e6e6e6;color: #999;}
+#u-stumg-addcus{background-color: #40cb85;}
+/*提示框*/
+.u-stumg-tipDiv{display: inline-block;height: 40px;width: 300px;background-color: #fff7e9;margin-top: 14px;margin-left: 117px;}
+.u-stumg-tipDiv1{display: none;height: 40px;width: 300px;background-color: #fff;margin-top: 14px;margin-left: 117px;}
+#u-stumg-tipcls{float: right;margin-right: 5px;color: #ba8232;cursor: pointer;}
+.u-stumg-content{margin-top: 15px;margin-left: 15px;color: #ba8232;}
+/*add stu 模态框*/
+.m-stumg-classmgDiv{display: none;}
+.g-stumg-addstuMt{display: none; top:50%;left: 0;right: 0;margin: -250px auto 0 auto; height: 350px;width: 380px;background-color: #fff;border-radius: 5px;z-index: 1111;position: fixed;}
+.g-stumg-addstuMt button{width: 92px;}
+.g-stumg-addstuMt span{display: inline-block;}
+.g-stumg-addstutitle{height: 40px;width: 100%;border-bottom: 1px solid #F2F2F2;}
+.g-stumg-addstutitle span{font-size: 16px;line-height: 40px;margin-left: 15px;}
+#u-stumg-addstuclosebtn{float: right;margin-top: 11px;margin-right: 10px;cursor: pointer;}
+.u-stumg-addstuitem{float: left;}
+.layui-form span{font-size: 14px;margin-top: 20px;margin-left: 30px;color: #666;} 
+.u-stumg-addcourseipt{width: 250px;}
+.u-stumg-coursecountipt{width:92px;}
+.u-stumg-addstumark{width: 250px;height: 100px;margin-top: 15px;}
+.u-stumg-addstusmt{width: 200px;margin-top: 25px;float: right;margin-right: 40px;}
+#u-stumg-addstuqxbtn{background-color: #fff;color: #666;border:1px solid #c9c9c9;width: 92px;}
+#u-stumg-addstucsmtbtn{background-color: #40cb85!important;}
+/*学生管理模态框*/
+#u-stumg-upstuqxbtn{background-color: #fff;color: #666;border:1px solid #c9c9c9;width: 92px;}
+#u-stumg-upstucsmtbtn{background-color: #40cb85!important;}
+/*课程删除框*/
+.g-stumg-scstuMt{display: none; top:60%;left: 0;right: 0;margin: -250px auto 0 auto; height: 250px;width: 500px;background-color: #fff;border-radius: 5px;z-index: 1111;position: fixed;}
+#u-stumg-scstuclosebtn{float: right;margin-top: 11px;margin-right: 10px;cursor: pointer;}
+.g-stumg-scstuMt p{text-align: center;font-size: 16px;color: rgb(102, 102, 102);margin-top: 60px;}
+.g-stumg-scstuMt button{width: 92px;margin-top: 70px;}
+.u-stumg-scstuclbtn{margin-left: 150px;}
+.u-stumgscstuokbtn{background-color: #40cb85;color: #fff;}
+.u-stumgscstuokbtn:hover{border: none;color: #fff;}
+/*数据表格*/
+.u-stumg-tabDiv{width:1030px;height: 600px;	margin-left: 15px;}
+/*班级管理*/
+#u-stumg-clsmgtip{margin-left: 220px!important;}
+.u-stumg-addcoursesehtitle{color: #666; height:36px; border: 1px solid #e6e6e6;text-align: center;line-height: 35px;}
+.u-stumg-clsmgsehbtn{margin-left: -2px;width: 50px;background-color: #fff;border: 1px solid #e6e6e6;color: #999;}
+#u-stumg-addcoursebtn{background-color: #40cb85;}
+.u-stumg-addcoursetabDiv{width:1026px; margin-left: 15px;}
+.u-stumg-cosmg-dmbtn,.u-stumg-cosmg-glbtn,.u-coursemg-glbtn{color: #4AA1EC;cursor: pointer;}
+.u-stumg-cosmg-scbtn,.u-coursemg-scbtn{color: #faa5a5;cursor: pointer;}
+#u-stumg-addclsclosebtn1{float: right;margin-right: 10px;margin-top: 10px;}
+/*班级管理添加班级模态框*/
+#u-stumg-addcls-li1{cursor: pointer;}
+#u-stumg-addcls-li2{cursor: pointer;}
+.g-stumg-addclstitle span{width: 90px;margin-left: 0px;text-align: center;}
+.g-stumg-addclstitle span:hover{border-bottom: 2px solid #4AA1EC;}
+.g-stumg-addclstitle span:nth-child(1){border-bottom: 2px solid #4AA1EC;}
+.u-stumg-clscounttitle{margin-left:3px!important;}
+#u-stumg-addclsqxbtn{background-color: #fff;color: #666;border:1px solid #c9c9c9;width: 92px;margin-top: -25px;}
+#u-stumg-addclscsmtbtn{background-color: #40cb85!important;margin-top: -25px;}
+.m-stumg-sktimefom{display: none;}
+.m-stumg-sktimefom span{font-size: 14px;display: inline-block; margin-top: 0px;margin-left: 0px;color: #666;} 
+.u-stumg-skeveweektitle{margin-left: 15px!important;margin-top: 10px!important;}
+.u-stumg-ck6{margin-left: 15px!important;}
+.layui-form-checkbox{margin-left: 0px;}
+.layui-form-checkbox span{width:3px;margin-left: -2px;}
+.u-stumg-evedaytitle{margin-top:16px!important;margin-left: 15px!important;float: left;}
+.u-stumg-skslt{margin-top: 10px!important;margin-left: 5px;}
+.u-stumg-sksj{position: relative;left: -155px;top: 60px;}
+.u-stumg-sksjDiv{position: relative;height: 180px;width: 250px;left: 48px;top: 15px;}
+.u-stumg-sksjDiv input{height: 30px;margin-top: 5px;}
+#u-stumg-skqxbtn{background-color: #fff;color: #666;border:1px solid #c9c9c9;width: 92px;margin-top: -5px;}
+#u-stumg-skmtbtn{background-color: #40cb85!important;margin-top: -5px;}
+/*点击点名按钮*/
+.u-stumg-dmsjdDiv{display: none; top:60%;left: 0;right: 0;margin: -250px auto 0 auto; height: 250px;width: 500px;background-color: #fff;border-radius: 5px;z-index: 1111;position: fixed;}
+.u-stumg-dmsjdtitle{display: inline-block;font-size: 16px;margin-top: 10px;margin-left: 15px;}
+#u-stumg-dmsjdclosebtn{float: right;margin-top: 11px;margin-right: 10px;cursor: pointer;}
+.m-stumg-dmsjdchoose{height: 120px;width: 300px;margin-left:130px;margin-top: 25px;}
+.m-stumg-dmsjdchoose span{font-size: 12px;color: #4AA1EC; cursor: pointer;}
+.u-stumg-dmsjdclbtn{width: 94px!important; margin-left: 150px;margin-top: 10px;}
+.u-dmsjdokbtn{border: none; background-color: #40cb85;color: #fff;margin-top: 10px;}
+.u-dmsjdokbtn:hover{border: none;color: #fff;}
+/*确认点名模态框*/
+.g-stumg-estbdmDiv{display: none; top:50%;left: 0;right: 0;margin: -250px auto 0 auto; height:500px;width: 500px;background-color: #fff;border-radius: 5px;z-index: 1111;position: fixed;}
+.g-stumg-dmtitleDiv{height: 35px;width: 100%;border-bottom: 1px solid #E5E5E5;}
+.g-stumg-dmtitleDiv span{font-size: 16px;margin-left: 15px;display: inline-block; margin-top: 7px;}
+#u-stumg-dmclosebtn{float: right;margin-top: 11px;margin-right: 10px;cursor: pointer;}
+.u-stumg-laststu{height: 60px;width: 90px;border-radius: 5px;background-color: #a4d0f5;text-align: center;line-height: 60px;color: #fff;position: absolute;left: 25px;top: 100px;}
+.u-stumg-currstu{height: 100px;width: 205px;border-radius: 5px;background-color: #4AA1EC;text-align: center;line-height: 100px;color: #fff;position: absolute;left: 130px;top: 60px;}
+.u-stumg-nextstu{height: 60px;width: 90px;border-radius: 5px;background-color: #a4d0f5;text-align: center;line-height: 60px;color: #fff;position: absolute;left: 350px;top: 100px;}
+.u-stumg-ajbtn{border: 1px solid #c9c9c9;cursor: pointer; height: 40px;width: 40px;text-align: center;line-height: 40px;font-size: 16px;color: #c9c9c9;border-radius: 5px;position: absolute;}
+#u-stumg-W{left: 130px;top:170px;}
+#u-stumg-S{left: 185px;top:170px;}
+#u-stumg-A{left: 235px;top:170px;}
+#u-stumg-D{left: 290px;top:170px;}
+.u-stumg-ajbtntitle{color: #999;position: absolute;font-size: 14px;}
+#u-stumg-Wtitle{left: 135px;top:220px;}
+#u-stumg-Stitle{left: 192px;top:220px;}
+#u-stumg-Atitle{left: 236px;top:220px;}
+#u-stumg-Dtitle{left: 291px;top:220px;}
+.u-stumg-ajexplain{font-size: 14px;color: #999;position: absolute;left: 136px;top: 243px;}
+.u-stumg-qkstutitle{font-size: 14px;position: absolute;left: 15px;top: 270px;}
+.u-stumg-qkstuDiv{height: 130px;width: 450px;position: absolute;left: 25px;top: 300px;}
+.u-stumg-dmqxbtn{width: 94px!important; position: absolute;left:140px;top: 450px;}
+.u-stumg-finishdmbtn{border: none; background-color: #40cb85;color: #fff;position: absolute;left: 235px;top: 450px;}
+.u-stumg-finishdmbtn:hover{border: none;color: #fff;}
+.u-stumg-qkstuDiv span{height: 30px;width: 70px;color: #faa5a5;border: 1px solid #faa5a5;display: inline-block;border-radius: 5px;margin-top: 5px; text-align: center;line-height: 30px;cursor: pointer;margin-left: 10px;}
+.u-stumg-qkstuDiv span:hover{border: none;background-color: #40cb85;color: #fff;}
+/*点名信息查看*/
+#u-stumg-dmmsgclosebtn{float: right;margin-top: 11px;margin-right: 10px;cursor: pointer;}
+.u-stumg-dmmsgdkstutitle{font-size: 14px;position: absolute;left: 20px;top: 50px;}
+.m-stumg-dmmsgdkstuDiv{overflow-y: auto; height: 170px;width: 440px;position: absolute;left: 30px;top: 70px;}
+.m-stumg-dmmsgdkstuDiv::-webkit-scrollbar{ width: 10px;height: 10px; background-color: white;}
+.m-stumg-dmmsgdkstuDiv::-webkit-scrollbar-thumb{ border-radius: 10px; background-color: #E5E5E5;}
+.m-stumg-dmmsgdkstuDiv span{display: inline-block;text-align: center;line-height: 30px; cursor: pointer;margin-left: 10px;margin-top: 5px; border-radius: 5px;height: 30px;width: 70px;border: 1px solid #4AA1EC;color: #4AA1EC;}
+.u-stumg-dmmsgqktitle{font-size: 14px;position: absolute;left: 20px;top: 260px;}
+.m-stumg-dmmsgqkstuDiv{overflow-y: auto; height: 130px;width: 440px;position: absolute;left: 30px;top: 280px;}
+.u-stumg-dmmsgqxbtn{width: 94px!important; position: absolute;left:140px;top: 440px;}
+.u-stumg-dmmsgfinishdmbtn{border: none; background-color: #40cb85;color: #fff;position: absolute;left: 235px;top: 440px;}
+.u-stumg-dmmsgfinishdmbtn:hover{border: none;color: #fff;}
+.m-stumg-dmmsgqkstuDiv span{display: inline-block;text-align: center;line-height: 30px; cursor: pointer;margin-left: 10px;margin-top: 5px; border-radius: 5px;height: 30px;width: 70px;border: 1px solid #f88a8a;color: #f88a8a;}
+.m-stumg-dmmsgqkstuDiv::-webkit-scrollbar{ width: 10px;height: 10px; background-color: white;}
+.m-stumg-dmmsgqkstuDiv::-webkit-scrollbar-thumb{ border-radius: 10px; background-color: #E5E5E5;}
+#g-stumg-dmmsgkcDiv{display: none;}
+/*班级删除模态框*/
+.g-stumg-scclsMt{display: none; top:60%;left: 0;right: 0;margin: -250px auto 0 auto; height: 250px;width: 500px;background-color: #fff;border-radius: 5px;z-index: 1111;position: fixed;}
+#u-stumg-scclsclosebtn{float: right;margin-top: 11px;margin-right: 10px;cursor: pointer;}
+.g-stumg-scclsMt p{text-align: center;font-size: 16px;color: rgb(102, 102, 102);margin-top: 60px;}
+.g-stumg-scclsMt button{width: 92px;margin-top: 70px;}
+.u-stumg-scclsclbtn{margin-left: 150px;}
+.u-stumgscclsokbtn{border: none; background-color: #40cb85;color: #fff;}
+.u-stumgscclsokbtn:hover{border: none;color: #fff;}
+/*班级管理管理模态框*/
+.g-stumg-mangeDiv{display: none; top:50%;left: 0;right: 0;margin: -250px auto 0 auto; height:402px;width: 800px;background-color: #fff;border-radius: 5px;z-index: 1111;position: fixed;}
+.m-stumg-mgtitle{height: 40px;width: 100%;border-bottom: 1px solid #E2E2E2;}	
+.m-stumg-mgtitle span{font-size: 16px;margin-top: 9px;display: inline-block;margin-left: 15px;}
+#u-stumg-mgclosebtn{float: right;margin-top: 11px;margin-right: 10px;cursor: pointer;}
+.u-stumg-mgleftDiv{height: 250px;width: 350px;float: left;}
+.u-stumg-mgrigthDiv{height: 250px;width: 420px;float: right;}
+#u-stumg-mgleftfom span{margin-top: 20px!important;display: inline-block;margin-left: 15px!important;}
+.u-stumg-mgclscounttitle{margin-left: 5px!important;}
+.m-stumg-mgbtnfom span{font-size: 14px;display: inline-block; margin-top: 0px;margin-left: 0px;color: #666;} 
+.u-stumg-dategai{color: #4AA1EC!important;cursor: pointer;}
+.u-stumg-mgbtnclbtn{widbh: 94px!important; margin-left: 490px;margin-top: 10px;}
+#u-mgbtnokbtn{border: none; background-color: #40cb85; color: #fff;margin-top: 10px;}
+#u-mgbtnokbtn:hover{border: none;color: #fff;}
+.u-stumg-mgclssksjDiv{height: 200px;width: 370px;margin-top: 20px;margin-left: 20px;}
+.u-stumg-mgclskeshi{height:40px;width: 350px;margin-top: 5px;}
+.u-stumg-djjks{float: left;display: inline-block;padding-top:10px;}
+.u-stumg-mgclskeshi input{float: left;width: 200px;margin-left: 10px!important;}
+.u-stumg-ksgai{display: inline-block;padding-top: 10px;margin-left: 10px!important; cursor: pointer;color: #4AA1EC!important;}
+.u-stumg-ksshan{display: inline-block;padding-top: 10px;cursor: pointer;color: #F77878!important;}
